@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="BMDB Consulting - Votre partenaire en solutions de consulting">
-    <title>BMDB Consulting</title>
+    <meta name="description" content="BMDB Consulting - Votre projet, notre accompagnement en orientation, formations et mobilité internationale">
+    <title>BMDB Consulting - Orientation & Mobilité Internationale</title>
     <style>
         * {
             margin: 0;
@@ -113,7 +113,7 @@
         
         .services {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
             gap: 30px;
             margin-bottom: 80px;
         }
@@ -122,7 +122,7 @@
             background: #f8f9fa;
             padding: 30px;
             border-radius: 8px;
-            text-align: center;
+            text-align: left;
             transition: transform 0.3s, box-shadow 0.3s;
             border: 2px solid transparent;
         }
@@ -137,6 +137,16 @@
             color: #667eea;
             margin-bottom: 15px;
             font-size: 22px;
+        }
+        
+        .service-card ul {
+            margin-left: 20px;
+            color: #555;
+        }
+        
+        .service-card li {
+            margin-bottom: 8px;
+            font-size: 14px;
         }
         
         .about {
@@ -233,6 +243,13 @@
             padding: 30px 20px;
         }
         
+        .tagline {
+            font-style: italic;
+            color: #667eea;
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+        
         @media (max-width: 768px) {
             .hero h1 {
                 font-size: 32px;
@@ -244,6 +261,10 @@
             
             .nav-links {
                 gap: 15px;
+            }
+            
+            .services {
+                grid-template-columns: 1fr;
             }
         }
     </style>
@@ -263,7 +284,8 @@
     <section class="hero">
         <div class="container">
             <h1>Bienvenue chez BMDB Consulting</h1>
-            <p>Transformez votre vision en réalité avec notre expertise en consulting</p>
+            <p class="tagline">Votre projet, notre accompagnement</p>
+            <p>Orientation • Formations • Mobilité Internationale</p>
             <a href="#contact" class="cta-button">Nous Contacter</a>
         </div>
     </section>
@@ -273,28 +295,143 @@
             <h2 class="section-title">Nos Services</h2>
             <div class="services">
                 <div class="service-card">
-                    <h3>📊 Stratégie Commerciale</h3>
-                    <p>Développez une stratégie commerciale solide adaptée à votre marché et vos objectifs.</p>
+                    <h3>🎓 Orientation & Formations</h3>
+                    <ul>
+                        <li>Orientation scolaire et universitaire</li>
+                        <li>Étude du profil académique</li>
+                        <li>Recherche de formations adaptées</li>
+                        <li>Recherche d'établissements</li>
+                        <li>Sélection des filières</li>
+                        <li>Conseils sur les conditions d'admission</li>
+                        <li>Accompagnement dans les candidatures</li>
+                    </ul>
                 </div>
+                
                 <div class="service-card">
-                    <h3>💼 Consulting Métier</h3>
-                    <p>Bénéficiez de notre expertise métier pour optimiser vos processus et augmenter votre rentabilité.</p>
+                    <h3>🇫🇷 Études en France</h3>
+                    <ul>
+                        <li>Accompagnement Campus France</li>
+                        <li>Accompagnement Parcoursup</li>
+                        <li>Choix des formations</li>
+                        <li>Recherche d'établissements</li>
+                        <li>Constitution du dossier</li>
+                        <li>Candidatures auprès des établissements</li>
+                        <li>Préparation à l'entretien</li>
+                        <li>Suivi jusqu'à l'admission</li>
+                    </ul>
                 </div>
+                
                 <div class="service-card">
-                    <h3>🚀 Transformation Digitale</h3>
-                    <p>Modernisez votre entreprise avec les solutions numériques adaptées à vos besoins.</p>
+                    <h3>🇪🇸 Études en Espagne</h3>
+                    <ul>
+                        <li>Orientation vers les formations</li>
+                        <li>Recherche d'établissements</li>
+                        <li>Accompagnement à l'inscription</li>
+                        <li>Constitution du dossier</li>
+                        <li>Suivi de l'inscription</li>
+                        <li>Accompagnement visa étudiant</li>
+                    </ul>
                 </div>
+                
                 <div class="service-card">
-                    <h3>📈 Gestion de Projet</h3>
-                    <p>Pilotez vos projets avec succès grâce à notre approche méthodique et éprouvée.</p>
+                    <h3>🌍 Autres Destinations</h3>
+                    <ul>
+                        <li>Belgique</li>
+                        <li>Canada</li>
+                        <li>Allemagne</li>
+                        <li>France</li>
+                        <li>Espagne</li>
+                        <li>Autres destinations internationales</li>
+                    </ul>
                 </div>
+                
                 <div class="service-card">
-                    <h3>👥 Ressources Humaines</h3>
-                    <p>Optimisez la gestion de vos ressources humaines et développez vos talents.</p>
+                    <h3>🏠 Logement Étudiant</h3>
+                    <ul>
+                        <li>Résidences étudiantes</li>
+                        <li>Studios et appartements</li>
+                        <li>Logements chez l'habitant</li>
+                        <li>Recherche à proximité</li>
+                        <li>Solutions temporaires</li>
+                        <li>Assistance aux réservations</li>
+                        <li>Conseils documentaires</li>
+                    </ul>
                 </div>
+                
                 <div class="service-card">
-                    <h3>🎓 Formation & Coaching</h3>
-                    <p>Perfectionnez les compétences de vos équipes avec nos programmes de formation personnalisés.</p>
+                    <h3>🛂 Visa & Démarches</h3>
+                    <ul>
+                        <li>Visa étudiant</li>
+                        <li>Visa touristique</li>
+                        <li>Visa d'affaires</li>
+                        <li>Vérification du dossier</li>
+                        <li>Préparation des pièces</li>
+                        <li>Prise de rendez-vous</li>
+                        <li>Préparation à l'entretien</li>
+                        <li>Suivi des démarches</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <h3>✈️ Voyages Touristiques</h3>
+                    <ul>
+                        <li>Préparation du voyage</li>
+                        <li>Orientation sur destinations</li>
+                        <li>Accompagnement visa</li>
+                        <li>Documents nécessaires</li>
+                        <li>Préparation du séjour</li>
+                        <li>Conseils hébergement</li>
+                        <li>Organisation pratique</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <h3>💼 Voyages d'Affaires</h3>
+                    <ul>
+                        <li>Préparation des déplacements</li>
+                        <li>Assistance visa affaires</li>
+                        <li>Documents de voyage</li>
+                        <li>Conseils hébergement</li>
+                        <li>Organisation du séjour</li>
+                        <li>Assistance logistique</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <h3>👨‍👩‍👧‍👦 Voyages Familiaux</h3>
+                    <ul>
+                        <li>Visites familiales</li>
+                        <li>Voyages privés</li>
+                        <li>Déplacements événements</li>
+                        <li>Assistance visa</li>
+                        <li>Conseils hébergement</li>
+                        <li>Organisation du séjour</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <h3>🧳 Préparation au Départ</h3>
+                    <ul>
+                        <li>Préparation du voyage</li>
+                        <li>Vérification documents</li>
+                        <li>Assurance voyage</li>
+                        <li>Conseils pratiques</li>
+                        <li>Organisation arrivée</li>
+                        <li>Conseils installation</li>
+                        <li>Orientation destination</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <h3>🌍 Mobilité Internationale</h3>
+                    <ul>
+                        <li>Études</li>
+                        <li>Formation</li>
+                        <li>Tourisme</li>
+                        <li>Affaires</li>
+                        <li>Visites familiales</li>
+                        <li>Voyages internationaux</li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -306,22 +443,23 @@
             <div class="about-content">
                 <div class="about-text">
                     <h2>Qui Sommes-Nous ?</h2>
-                    <p>BMDB Consulting est un cabinet de conseil leader, spécialisé dans l'accompagnement des entreprises de toutes tailles.</p>
-                    <p>Fort de plusieurs années d'expérience, notre équipe d'experts vous aide à relever les défis les plus complexes et à atteindre vos objectifs stratégiques.</p>
-                    <p>Nous croyons en une approche personnalisée et pragmatique pour chaque client, garantissant des résultats concrets et durables.</p>
+                    <p>BMDB Consulting est un cabinet spécialisé dans l'orientation, les formations et la mobilité internationale.</p>
+                    <p>Nous accompagnons étudiants, particuliers et professionnels dans leurs projets d'études, de voyages et de mobilité à l'étranger.</p>
+                    <p>Fort de notre expertise et de notre réseau international, nous vous guidons à chaque étape de votre projet pour garantir son succès.</p>
+                    <p><strong>Construisons ensemble votre projet et ouvrons les portes de l'international.</strong></p>
                 </div>
                 <div class="stats">
                     <div class="stat-item">
+                        <div class="stat-number">500+</div>
+                        <div class="stat-label">Clients Accompagnés</div>
+                    </div>
+                    <div class="stat-item">
                         <div class="stat-number">50+</div>
-                        <div class="stat-label">Clients Satisfaits</div>
+                        <div class="stat-label">Destinations</div>
                     </div>
                     <div class="stat-item">
-                        <div class="stat-number">100+</div>
-                        <div class="stat-label">Projets Réussis</div>
-                    </div>
-                    <div class="stat-item">
-                        <div class="stat-number">15+</div>
-                        <div class="stat-label">Années d'Expérience</div>
+                        <div class="stat-number">11</div>
+                        <div class="stat-label">Services Proposés</div>
                     </div>
                 </div>
             </div>
@@ -346,6 +484,7 @@
     <footer>
         <div class="container">
             <p>&copy; 2026 BMDB Consulting. Tous droits réservés.</p>
+            <p>Votre projet, notre accompagnement</p>
             <p>Designed with ❤️ by Batinadoreha</p>
         </div>
     </footer>
